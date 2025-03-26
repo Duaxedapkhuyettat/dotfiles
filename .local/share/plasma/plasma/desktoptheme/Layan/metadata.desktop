@@ -1,0 +1,27 @@
+[AdaptiveTransparency]
+enabled=true
+
+[ContrastEffect]
+contrast=0.2
+enabled=false
+intensity=0.4
+saturation=1.7
+
+[Desktop Entry]
+Comment=Layan theme for plasma
+Name=Layan
+X-KDE-PluginInfo-Author=Vinceliuice
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=GPL 3.0
+X-KDE-PluginInfo-Name=Layan
+X-KDE-PluginInfo-Version=0.1.1
+X-KDE-PluginInfo-Website=https://github.com/vinceliuice/Layan-kde
+
+[Wallpaper]
+defaultFileSuffix=.png
+defaultHeight=1440
+defaultWallpaperTheme=Layan
+defaultWidth=2560
