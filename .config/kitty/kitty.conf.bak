@@ -1,0 +1,19 @@
+# BEGIN_KITTY_THEME 
+# Ayaka
+include current-theme.conf
+
+background_opacity 0.85
+kitty_mod ctrl+shift
+                                        
+font_family Hack Nerd Font
+bold_font Hack Nerd Font Bold
+italic_font Hack Nerd Font Italic
+bold_italic_font Hack Nerd Font Bold Italic
+
+window_margin_width 5                 
+
+
+tab_bar_style powerline
+tab_powerline_style slanted
+tab_activity_symbol *                   
+# END_KITTY_THEME           
