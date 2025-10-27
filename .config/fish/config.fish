@@ -1,5 +1,6 @@
 if status is-interactive
     fastfetch
-    set -g fish_greeting "恋をして　ふられ　また　捨てられて"
     zoxide init fish | source
+    set -gx MICRO_TRUECOLOR 1
+    set -gx EDITOR micro
 end
