@@ -25,5 +25,18 @@ fi
 unset rc
 XMODIFIERS=@im=fcitx
 
+#yazi stuff
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}
+
+export EDITOR='micro'
+export VISUAL='micro'
+
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-#[ -x /bin/fish ] && SHELL=/bin/fish exec fish
+#[ -x /bin/fish ] && SHELL=/bin/fish exec 
+eval "$(oh-my-posh init bash --config ~/.config/catppuccin_mocha.omp.json)"
