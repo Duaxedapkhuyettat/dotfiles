@@ -1,6 +1,6 @@
 # A TOML linter such as https://taplo.tamasfe.dev/ can use this schema to validate your config.
-# If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
 "$schema" = "https://yazi-rs.github.io/schemas/keymap.json"
+# If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
 [[mgr.prepend_keymap]]
 on   = "t"
 run  = "plugin smart-tab"
@@ -135,9 +135,10 @@ keymap = [
 	{ on = [ "g", "d" ],       run = "cd ~/Downloads",   desc = "Go ~/Downloads" },
 	{ on = [ "g", "<Space>" ], run = "cd --interactive", desc = "Jump interactively" },
 	{ on = [ "g", "f" ],       run = "follow",           desc = "Follow hovered symlink" },
-	{ on = [ "g", "1" ], 	   run = "cd '/run/media/fatass/Nissan GT-R/'", desc = "Jump interactively" },
-	{ on = [ "g", "2" ], 	   run = "cd '/run/media/fatass/2008 Toyota Corolla/'", desc = "Jump interactively" },
-
+	{ on = [ "g", "1" ], 	   run = "cd '/run/media/fatass/Nissan GT-R/'", desc = "Jump to Windows partition" },
+	{ on = [ "g", "2" ], 	   run = "cd '/run/media/fatass/2008 Toyota Corolla/'", desc = "Jump to External SSD" },
+	{ on = [ "g", "t" ], 	   run = "cd '~/.local/share/Trash/files/'", desc = "Go to trash folder" },
+	
 	# Tabs
 	{ on = "t", run = "tab_create --current", desc = "Create a new tab with CWD" },
 
