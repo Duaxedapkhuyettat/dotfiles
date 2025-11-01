@@ -1,3 +1,5 @@
+## The Nyan Conservatism or whatever it is.
+![[Example.png]]
 ## Installation
 
 First, check out the dotfiles repo in your $HOME directory using git
