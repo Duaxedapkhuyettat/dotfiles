@@ -12,7 +12,7 @@
 - [Yazi](https://github.com/sxyazi/**yazi**)
 ### Additional Stuff
 - [Vesktop](https://github.com/Vencord/Vesktop) and [the themed I used.](https://github.com/refact0r/system24)
-- [Andromeda SDDM](https://store.kde.org/p/2144475) 
+- [Andromeda SDDM](https://store.kde.org/p/2144475) (Change mp4 wallpaper at Main.qml file)
 ## Installation
 Make sure [git](https://git-scm.com/install/) and [stow](https://www.gnu.org/software/stow/) installed.
 First, check out the dotfiles repo in your $HOME directory using git

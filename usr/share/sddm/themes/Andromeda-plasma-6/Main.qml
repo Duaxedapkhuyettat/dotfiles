@@ -64,7 +64,7 @@ Item {
         Video {
             id: videoPlayer
             anchors.fill: parent // Dynamically fill the parent Image
-            source: "file:///usr/share/sddm/themes/Andromeda-plasma-6/xD.mp4" // Changing wallpaper here
+            source: "file:///usr/share/sddm/themes/Andromeda-plasma-6/xD.mp4" // Changing wallpaper here 
             loops: -1 // Use the same enum for looping
             muted: false
             // Start playback automatically when the component is ready
